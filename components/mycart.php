@@ -51,10 +51,10 @@ try {
 	</tr>
 	<?php
      } ?>
-	<br />
-	<tr></tr>
+	<hr />
 	<tr>
-		<td>Total Orders - <?php echo $c_count; ?>
+		<td><strong>Total Orders - <?php echo $c_count; ?>
+				</srong>
 		</td>
 		<td align="right" nowrap="nowrap"><strong><span align="right"><?php echo $user->fmtCurDisp($prod_total); ?></span></strong>
 		</td>
@@ -72,5 +72,4 @@ try {
 		</tr>
 	</table><br />
 </div>
-<?php } ?>
-<hr />
+<?php }
